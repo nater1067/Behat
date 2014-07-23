@@ -22,37 +22,74 @@
     <favorites_list name="Behat" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="49" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ls.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/ls.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeatureContext.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="24" selection-start="945" selection-end="945" vertical-scroll-proportion="0.62568605" vertical-offset="0" max-vertical-offset="1140">
-              <folding>
-                <element signature="e#7#190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/composer.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="1" selection-start="305" selection-end="305" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="behat.yml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/behat.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="24" selection-start="168" selection-end="168" vertical-scroll-proportion="0.098684214" vertical-offset="0" max-vertical-offset="912">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ls.feature" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/ls.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="7" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+                  <folding>
+                    <marker date="1406151964000" expanded="true" signature="135:352" placeholder="Scenario: List 2 files in a directory" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FeatureContext.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="77" column="10" selection-start="1848" selection-end="1848" vertical-scroll-proportion="-35.75" vertical-offset="297" max-vertical-offset="1290">
+                  <folding>
+                    <element signature="e#7#190#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="search.feature" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/search.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="search.feature" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/search.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="33" selection-start="797" selection-end="797" vertical-scroll-proportion="0.3529412" vertical-offset="0" max-vertical-offset="935">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -66,9 +103,12 @@
         <option value="$PROJECT_DIR$/deps" />
         <option value="$PROJECT_DIR$/app/autoload.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/features/ls.feature" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/behat.yml" />
+        <option value="$PROJECT_DIR$/features/user_registration.feature" />
         <option value="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
+        <option value="$PROJECT_DIR$/features/search.feature" />
       </list>
     </option>
   </component>
@@ -133,6 +173,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Behat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Behat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -161,6 +215,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/usr/local/etc/php/5.4/conf.d" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -228,26 +283,42 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="49" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/ls.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="7" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding>
+            <marker date="1406151964000" expanded="true" signature="135:352" placeholder="Scenario: List 2 files in a directory" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="305" selection-end="305" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="24" selection-start="945" selection-end="945" vertical-scroll-proportion="0.62568605" vertical-offset="0" max-vertical-offset="1140">
+        <state line="77" column="10" selection-start="1848" selection-end="1848" vertical-scroll-proportion="-35.75" vertical-offset="297" max-vertical-offset="1290">
           <folding>
             <element signature="e#7#190#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behat.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="168" selection-end="168" vertical-scroll-proportion="0.098684214" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="33" selection-start="797" selection-end="797" vertical-scroll-proportion="0.3529412" vertical-offset="0" max-vertical-offset="935">
+          <folding />
         </state>
       </provider>
     </entry>

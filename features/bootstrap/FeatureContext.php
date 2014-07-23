@@ -17,7 +17,7 @@ use Behat\Gherkin\Node\PyStringNode,
 /**
  * Features context.
  */
-class FeatureContext extends BehatContext
+class FeatureContext extends \Behat\MinkExtension\Context\MinkContext
 {
     /**
      * Initializes context.
@@ -66,5 +66,15 @@ class FeatureContext extends BehatContext
                 "Actual output is:\n" . $this->output
             );
         }
+    }
+
+    /**
+     * @Given /^I wait for the suggestion box to appear$/
+     */
+    public function iWaitForTheSuggestionBoxToAppear()
+    {
+        $this->getSession()->wait(5000,
+            "$('.suggestions-results').children().length > 0"
+        );
     }
 }
